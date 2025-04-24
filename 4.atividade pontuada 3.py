@@ -56,7 +56,7 @@ total_descontos = inss + irrf + vt + vr + plano_saude
 salario_liquido = salario_base - total_descontos
 
 
-print("\n --- RESUMO DA FOLHA DE PAGAMENTO ---")
+print("\n ==== FOLHA DE PAGAMENTO ====")
 print(f"Salário Base:               R$ {salario_base:,.2f}")
 print(f"Desconto INSS:              R$ {inss:,.2f}")
 print(f"Desconto IRRF:              R$ {irrf:,.2f}")
